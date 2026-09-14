@@ -1,10 +1,5 @@
 import asyncio
 import time
-from pydantic import Basemodel
-
-class Patient_data(Basemodel):
-    name: str
-    age: int
 
 async def fetch_database():
     print("Fetching data...")
