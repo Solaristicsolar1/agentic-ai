@@ -41,6 +41,7 @@ print("TOOL CALLS:", response.message.tool_calls)
 print("MODEL CONTENT:", response.message.content)
 
 
+
 # Check whether the model requested a tool
 if response.message.tool_calls:
 
